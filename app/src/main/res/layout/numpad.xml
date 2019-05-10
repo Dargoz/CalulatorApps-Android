@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/numLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/zero"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/triple_zero"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/triple_zero"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/tripeZero"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/backspace"
+        app:layout_constraintStart_toEndOf="@id/zero" />
+
+    <ImageButton
+        android:id="@+id/backspace"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:contentDescription="@string/backspace"
+        android:padding="28dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/backspace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/plus"
+        app:layout_constraintStart_toEndOf="@id/triple_zero" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/btn_bg_grey"
+        android:text="@string/plus"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/backspace" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/seven"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/zero"
+        app:layout_constraintEnd_toStartOf="@id/eight"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/eight"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/triple_zero"
+        app:layout_constraintEnd_toStartOf="@id/nine"
+        app:layout_constraintStart_toEndOf="@id/seven" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/nine"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/backspace"
+        app:layout_constraintEnd_toStartOf="@id/minus"
+        app:layout_constraintStart_toEndOf="@id/eight" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/btn_bg_grey"
+        android:text="@string/minus"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/nine" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/four"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/seven"
+        app:layout_constraintEnd_toStartOf="@id/five"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/five"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/eight"
+        app:layout_constraintEnd_toStartOf="@id/six"
+        app:layout_constraintStart_toEndOf="@id/four" />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/six"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/nine"
+        app:layout_constraintEnd_toStartOf="@id/multiply"
+        app:layout_constraintStart_toEndOf="@id/five" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/btn_bg_grey"
+        android:text="@string/multiply"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/minus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/six" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/one"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/four"
+        app:layout_constraintEnd_toStartOf="@id/two"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/two"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/five"
+        app:layout_constraintEnd_toStartOf="@id/three"
+        app:layout_constraintStart_toEndOf="@id/one" />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/button_bg"
+        android:text="@string/three"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/six"
+        app:layout_constraintEnd_toStartOf="@id/divide"
+        app:layout_constraintStart_toEndOf="@id/two" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="0dp"
+        android:layout_height="40pt"
+        android:background="@drawable/btn_bg_grey"
+        android:text="@string/divide"
+        android:textColor="@color/bcaBlueIconColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/multiply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/three" />
+</android.support.constraint.ConstraintLayout>

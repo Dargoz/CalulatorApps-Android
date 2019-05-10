@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightGrey">#eee1e1e1</color>
+    <color name="bcaBlueIconColor">#0a559f</color>
+    <color name="bcaBlueLightColor">#fb2c8ae7</color>
+    <color name="bcaBlue">#0173B2</color>
+    <color name="LightBlue">#0199A0</color>
+    <color name="white">#FFFF</color>
+    <color name="bcaColorGrey">#cdcdcd</color>
+    <color name="greyBackgroundColor">#DADADA</color>
+    <color name="bcaDarkBlueBackgroundColor">#002345</color>
+    <color name="transparent">#00000000</color>
+</resources>
