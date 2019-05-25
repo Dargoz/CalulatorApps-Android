@@ -22,6 +22,6 @@ public class ExampleUnitTest {
         res = CheckAmountText.cleanDotFromString("5.780.000");
         assertEquals( "5780000",res);
         res = CheckAmountText.cleanDotFromString("5.484.400");
-        assertEquals( "548440",res);
+        assertEquals( "5484400",res);
     }
 }
